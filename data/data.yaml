@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: train/images
+val: valid/images
+test: test/images
 
 nc: 4
 names: ['1 pesos', '10 pesos', '20 pesos', '5 pesos']
