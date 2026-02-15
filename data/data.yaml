@@ -1,13 +1,13 @@
-train: train/images
-val: valid/images
-test: test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-nc: 4
-names: ['1 pesos', '10 pesos', '20 pesos', '5 pesos']
+nc: 8
+names: ['1 peso', '10 peso', '10 peso-old', '20 peso', '25 cents', '25 cents-old', '5 peso', '5 peso-old']
 
 roboflow:
   workspace: yolo-ocqoo
   project: coin-detection-6ybsj
-  version: 1
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/yolo-ocqoo/coin-detection-6ybsj/dataset/1
+  url: https://universe.roboflow.com/yolo-ocqoo/coin-detection-6ybsj/dataset/3
